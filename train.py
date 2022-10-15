@@ -22,7 +22,7 @@ def main():
                         help='path to datasets')
     parser.add_argument('--data_name', default='precomp',
                         help='{coco,f8k,f30k,10crop}_precomp|coco|f8k|f30k')
-    parser.add_argument('--vocab_path', default='/content/drive/MyDrive/VSRN/vocab/',
+    parser.add_argument('--vocab_path', default='/content/VSRN/vocab/',
                         help='Path to saved vocabulary pickle files.')
     parser.add_argument('--margin', default=0.2, type=float,
                         help='Rank loss margin.')
