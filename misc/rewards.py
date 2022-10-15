@@ -2,7 +2,7 @@ import numpy as np
 from collections import OrderedDict
 import torch
 import sys
-sys.path.append("coco-caption")
+sys.path.append("/content/drive/MyDrive/VSRN/coco-caption")
 from pyciderevalcap.ciderD.ciderD import CiderD
 
 CiderD_scorer = None
